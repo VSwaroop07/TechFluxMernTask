@@ -122,7 +122,7 @@ function App() {
             <p className="text-gray-500">{user.city}</p>
             <button
               onClick={() => handleDelete(user._id)}
-              className="mt-2 text-red-500 hover:underline text-xs"
+              className="mt-2 text-xs bg-red-600 rounded p-2 text-white cursor-pointer  "
             >
               Delete
             </button>
